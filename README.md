@@ -1,5 +1,5 @@
 # actions-workflows
-Repository of plus3it reusable worfklows for GitHub Actions.
+Repository of MetroStar reusable worfklows for GitHub Actions.
 
 This project publishes reusable workflows for the Plus3IT organization. All reusable
 workflows are located in the directory [.github/workflows](.github/workflows).
@@ -36,7 +36,7 @@ concurrency:
 
 jobs:
   lint:
-    uses: plus3it/actions-workflows/.github/workflows/lint.yml@v1
+    uses: MetroStar/actions-workflows/.github/workflows/lint.yml@v1
 ```
 
 ### `test`
@@ -60,7 +60,7 @@ concurrency:
 
 jobs:
   test:
-    uses: plus3it/actions-workflows/.github/workflows/test.yml@v1
+    uses: MetroStar/actions-workflows/.github/workflows/test.yml@v1
 ```
 
 ### `release`
@@ -91,7 +91,7 @@ on:
 
 jobs:
   release:
-    uses: plus3it/actions-workflows/.github/workflows/release.yml@v1
+    uses: MetroStar/actions-workflows/.github/workflows/release.yml@v1
     secrets:
       release-token: ${{ secrets.GH_RELEASES_TOKEN }}
 ```

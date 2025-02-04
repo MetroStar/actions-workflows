@@ -4,26 +4,26 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-### [1.6.3](https://github.com/plus3it/actions-workflows/releases/tag/1.6.3)
+### [1.6.3](https://github.com/MetroStar/actions-workflows/releases/tag/1.6.3)
 
 **Released**: 2025.01.24
 
 *   Supports passing lint target through release workflow
 
-### [1.6.2](https://github.com/plus3it/actions-workflows/releases/tag/1.6.2)
+### [1.6.2](https://github.com/MetroStar/actions-workflows/releases/tag/1.6.2)
 
 **Released**: 2024.08.16
 
 *   Updates actions/checkout steps to use current v4 release, since EL7 containers
     no longer need to be supported.
 
-### [1.6.1](https://github.com/plus3it/actions-workflows/releases/tag/1.6.1)
+### [1.6.1](https://github.com/MetroStar/actions-workflows/releases/tag/1.6.1)
 
 **Released**: 2024.07.02
 
 *   Quotes inputs for lint action to support multiple targets
 
-### [1.6.0](https://github.com/plus3it/actions-workflows/releases/tag/1.6.0)
+### [1.6.0](https://github.com/MetroStar/actions-workflows/releases/tag/1.6.0)
 
 **Released**: 2024.06.04
 
@@ -43,7 +43,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
     repos and because the Red Hat 9 container-images similarly lack critical
     RPMs.
 
-### [1.5.0](https://github.com/plus3it/actions-workflows/releases/tag/1.5.0)
+### [1.5.0](https://github.com/MetroStar/actions-workflows/releases/tag/1.5.0)
 
 **Released**: 2024.02.22
 
@@ -52,7 +52,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 *   Updates salt workflows with option to install python requirements into salt
     runtime
 
-### [1.4.1](https://github.com/plus3it/actions-workflows/releases/tag/1.4.1)
+### [1.4.1](https://github.com/MetroStar/actions-workflows/releases/tag/1.4.1)
 
 **Released**: 2024.02.21
 
@@ -62,7 +62,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
     to v3 instead of v4 to support EL7 containers. Also updates dependabot config
     to ignore future action/checkout releases.
 
-### [1.4.0](https://github.com/plus3it/actions-workflows/releases/tag/1.4.0)
+### [1.4.0](https://github.com/MetroStar/actions-workflows/releases/tag/1.4.0)
 
 **Released**: 2023.11.06
 
@@ -71,7 +71,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 *   Updates Windows Salt test to support retrieving the latest salt release for
     a given salt major version. (The Linux Salt test already works this way.)
 
-### [1.3.2](https://github.com/plus3it/actions-workflows/releases/tag/1.3.2)
+### [1.3.2](https://github.com/MetroStar/actions-workflows/releases/tag/1.3.2)
 
 **Released**: 2023.08.14
 
@@ -79,7 +79,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 *   Remove install of docker-compose, it is no longer present in tardigrade-ci
 
-### [1.3.1](https://github.com/plus3it/actions-workflows/releases/tag/1.3.1)
+### [1.3.1](https://github.com/MetroStar/actions-workflows/releases/tag/1.3.1)
 
 **Released**: 2023.07.17
 
@@ -87,7 +87,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 *   Uses bash on Windows runners to validate steps using shellcheck
 
-### [1.3.0](https://github.com/plus3it/actions-workflows/releases/tag/1.3.0)
+### [1.3.0](https://github.com/MetroStar/actions-workflows/releases/tag/1.3.0)
 
 **Released**: 2023.06.26
 
@@ -95,7 +95,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 *   Adds reusable workflow for testing salt formulas on Windows
 
-### [1.2.1](https://github.com/plus3it/actions-workflows/releases/tag/1.2.1)
+### [1.2.1](https://github.com/MetroStar/actions-workflows/releases/tag/1.2.1)
 
 **Released**: 2023.06.20
 
@@ -103,7 +103,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 *   Improves the logic getting the current version to avoid multiple returns
 
-### [1.2.0](https://github.com/plus3it/actions-workflows/releases/tag/1.2.0)
+### [1.2.0](https://github.com/MetroStar/actions-workflows/releases/tag/1.2.0)
 
 **Released**: 2023.05.22
 
@@ -111,7 +111,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 *   Adds reusable workflow for testing salt formulas on Linux
 
-### [1.1.0](https://github.com/plus3it/actions-workflows/releases/tag/1.1.0)
+### [1.1.0](https://github.com/MetroStar/actions-workflows/releases/tag/1.1.0)
 
 **Released**: 2023.03.27
 
@@ -119,7 +119,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 *   Adds option to pass PYTEST_ARGS to mockstack/pytest target
 
-### [1.0.1](https://github.com/plus3it/actions-workflows/releases/tag/1.0.1)
+### [1.0.1](https://github.com/MetroStar/actions-workflows/releases/tag/1.0.1)
 
 **Released**: 2023.02.06
 
@@ -127,7 +127,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 *   Allows test job to be optional in release workflow
 
-### [1.0.0](https://github.com/plus3it/actions-workflows/releases/tag/1.0.0)
+### [1.0.0](https://github.com/MetroStar/actions-workflows/releases/tag/1.0.0)
 
 **Released**: 2023.01.24
 
